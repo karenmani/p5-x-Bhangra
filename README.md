@@ -1,13 +1,33 @@
-# p5-x-Bhangra
+# Karen Project
 
-### Live Demo (use computer and headphones for quality assurance)
-https://p5xbhangra.netlify.app
+> A P5.js experiment
 
+Hosted version: https://laughing-hypatia-9d0844.netlify.app/
 
-### About This Project
-A project created by Karen Mani (B.A. in Computer Science, Class of 2021) and Heather Stebbins (Professor in Electronic and Computer Music) at The George Washington University. Using p5.js and basic HTML/CSS, this installation was built at the intersection of CS and music to expose the Bhangra community to a broader audience. 
+## Set up
 
+1. Clone this repository
 
-### How It Works
-![help-diagram](https://user-images.githubusercontent.com/32199952/116441249-49c48300-a81f-11eb-89a3-095fec116641.jpeg)
+  ```
+  git clone git@github.com:drstebz/karen_project
+  ```
 
+2. Start a local web server with Python
+
+  ```
+  # For Python 2
+  python -mSimpleHTTPServer 8080
+
+  # For Python 3
+  python -mhttp.server 8080
+  ```
+
+3. Open http://localhost:8080 in your browser
+
+4. Type `Control-C` to stop the developmenet server
+
+## Deployment
+
+This project is hosted on [Netlify](https://netlify.com).
+
+Commits pushed to the `main` branch will automatically trigger a deployment via their [GitHub App](https://github.com/apps/netlify).
