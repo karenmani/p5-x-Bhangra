@@ -53,7 +53,7 @@ button {
 	border: 1px solid #444444;
 	border-radius: 8px;
 	position: relative;
-	left: -5px;
+	left: 40px;
 }
 
 #all-button {
@@ -63,8 +63,8 @@ button {
 #help-button {
 	width: 85px;
 	text-align: center;
-	position: fixed;
-	left: 1325px;
+	position: relative;
+	left: 0px;
 }
 
 #modal {
